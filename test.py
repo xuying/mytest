@@ -1,13 +1,16 @@
+""" Test moduel - this is docstring. without this, there will be C0111 pylint warning """
+
 # Mesaure some strings
-words = ['Monday', 'Tuesday', 'Wednesday']
-for w in words:
-    print (w, len(w))
+# Constanst should be all CAP case
+WORDS = ['Monday', 'Tuesday', 'Wednesday']
+for w in WORDS:
+    print(w, len(w))
 
 # Fibonacci series
-a, b = 0, 1
-if b > 0:
-    print ('Non zero')
+A, B = 0, 1
+if B > 0:
+    print('Non zero')
 
-while b < 100:
-    print (b, end=',')
-    a, b = b, a+b
+while B < 100:
+    print(B, end=',')
+    A, B = B, A+B
